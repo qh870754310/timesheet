@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+    <modelVersion>4.0.0</modelVersion>  
+    <parent> 
+        <groupId>com.kcfy</groupId>  
+        <artifactId>timesheet</artifactId>
+        <version>1.0.0-SNAPSHOT</version> 
+    </parent>  
+    <artifactId>timesheet-facade</artifactId>
+    <name>timesheet-facade</name>
+    <packaging>jar</packaging>  
+    <url>http://maven.apache.org</url>  
+    <properties> 
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>  
+        <project.type>facade</project.type>  
+        <base.package>com.kcfy.techservicemarket.facade.dto</base.package> 
+    </properties>  
+    <dependencies> 
+        <dependency> 
+            <groupId>org.dayatang.dddlib</groupId>  
+            <artifactId>dddlib-utils</artifactId> 
+        </dependency>  
+        <dependency> 
+            <groupId>org.openkoala.koalacommons</groupId>  
+            <artifactId>koala-commons-facade</artifactId> 
+        </dependency>
+        <dependency>
+            <groupId>com.kcfy</groupId>
+            <artifactId>timesheet-core</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        
+        <!--<dependency>
+		  <groupId>com.kcfy</groupId>
+		  <artifactId>cms-dto</artifactId>
+		  <version>1.0</version>
+		</dependency>-->
+    </dependencies> 
+</project>
